@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  .container{
+    background-color: lightgrey;
+    margin: 25%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+
+  h1{
+    font-size: 3rem;
+    margin: 50px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+  }
+  
+  #joke-container {
+    margin: 20px;
+    font-size: 18px;
+    color: #333;
+  }
+  
